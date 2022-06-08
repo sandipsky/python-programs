@@ -1,0 +1,19 @@
+python method overloading not possible
+
+
+use *args, **kwargs
+
+
+
+def add(a,b, *args):
+
+
+
+print(add(1,2,3,4,5))
+add(1,2)
+add(1,2,3)
+
+
+def _display() #protected
+
+def __display() #private

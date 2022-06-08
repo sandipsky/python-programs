@@ -2,7 +2,6 @@
 import subprocess
 import os
 
-print(os.name)
 if os.name == 'nt':
     def getWifiNames():
         #variable to store output of command 'netsh wlan show profiles'
@@ -33,6 +32,9 @@ if os.name == 'nt':
         print(name.ljust(m), ":", password)
 else:
     pass
+    
+print("Press any key")
+x = input("Enter a key")
 
 
 
